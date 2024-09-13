@@ -1,7 +1,4 @@
 #include "ws2812_led.h"
-
-#include <FastLED.h>
-
 #define LED_PIN 5
 
 ws2812led::ws2812led(led_count_type no_leds) : 
